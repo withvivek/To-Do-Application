@@ -1,0 +1,56 @@
+Task to join in frontend training involves designing challenges that test their understanding of foundational web technologies (HTML, CSS, JavaScript) and essential React concepts. Given your requirements, here's a structured task that can help evaluate the candidate's skills effectively:
+
+Task Title: Develop an Advanced React To-Do Application with API Integration
+
+Objective: Enhance the basic To-Do application by integrating external API data, implementing advanced state management using Redux, and ensuring the application is responsive and user-friendly across different devices.
+
+Requirements:
+
+Frontend Development And API Integration:
+Utilize HTML to structure the application's layout.
+Use CSS for styling the application. Feel free to use CSS frameworks like Bootstrap or Material-UI for design components.
+Implement the application logic using JavaScript (ES6 or later).
+Integrate with a public API (e.g., a weather API) to display data relevant to the tasks. For example, if a task is related to an outdoor activity, show the current weather conditions.
+Implement error handling for the API requests to manage and display errors gracefully in the UI.
+
+React Components And Advanced State Management::
+Develop the application using functional components and demonstrate the use of React hooks (e.g., useState, useEffect).
+The application should have at least two components:    
+TaskInput: A component for adding a new task.
+TaskList: A component for displaying the list of tasks.
+Use Redux Thunk or Redux Saga for handling asynchronous actions (e.g., API calls).
+Use Redux Thunk or Redux Saga for handling asynchronous actions (e.g., API calls).
+
+
+
+Responsive Design: 
+Ensure the application is fully responsive and provides an excellent user experience on mobile, tablet, and desktop devices. Use CSS Grid and Flexbox to achieve responsiveness.
+Implement a mobile-first design approach..
+
+
+Functionality:
+Add Task: Users should be able to input a task into a text field and add it to the list by pressing a button or pressing Enter.
+View Tasks: Display all added tasks in a list format.
+Delete Task: Each task should have a delete button that, when clicked, removes the task from the list.
+Task Prioritization: Allow users to set priorities for tasks (e.g., High, Medium, Low) and display them accordingly.
+Persistent Storage: Use local storage or session storage to save tasks and authentication status, ensuring data persistence across browser sessions.
+User Authentication:
+Add a simple user authentication feature (login/logout functionality) that simulates the process using Redux for state management. There's no need to integrate with a backend; you can mock the authentication process.
+Protect the To-Do list behind authentication, ensuring that tasks are only visible to logged-in users.
+Additional Instructions:
+Follow best practices for organizing your project structure, especially as it grows in complexity with these new features. 
+Prioritize clean code and maintainability, making sure your application is scalable.
+
+
+
+Submission Guidelines:
+Submit your project as a GitHub repository link with a detailed README on setup and running instructions. Include screenshots and a brief overview of the features implemented. 
+Deploy your application using a free hosting service (e.g., Netlify, Vercel, GitHub Pages) and provide the live site URL for immediate access and testing.
+Submit your project via this form:    
+https://docs.google.com/forms/d/e/1FAIpQLSdrJglll_o2t5snpVTITuAfJwHYKIP6kCQW2RNSe3hzD1PcRg/viewform?usp=dialog
+
+Evaluation Criteria:
+Completeness: All required features are implemented and work as expected. 
+Code Quality and Organization: The code is well-structured, commented, and follows React best practices. 
+Design and User Experience: The application is responsive, visually appealing, and user-friendly across devices. 
+Technical Proficiency: Demonstrates advanced knowledge in React, Redux, and external API integration.
